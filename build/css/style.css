@@ -432,7 +432,7 @@ textarea:-moz-placeholder {
   margin: 0;
   padding: 0;
   list-style: none;
-  outline: 1px solid #5a98d0;
+  outline: 2px solid #5a98d0;
   outline-offset: -1px; }
 
 .clients__item {
@@ -446,6 +446,7 @@ textarea:-moz-placeholder {
   line-height: 129px;
   background-color: #5a98d0;
   border: 1px solid rgba(255, 255, 255, 0.6);
+  outline: 1px solid rgba(255, 255, 255, 0.6);
   -webkit-transition: background-color 0.5s;
   transition: background-color 0.5s; }
   @media (max-width: 768px) {
