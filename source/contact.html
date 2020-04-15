@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="viewport" content="width=device-width, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Index</title>
+  <title>Contact</title>
   <link rel="stylesheet" href="css/style.min.css">
   <script src="js/picturefill.js" async=""></script>
 </head>
@@ -13,71 +13,81 @@
   <div style="display: none">
     <include src="build/img/sprite.svg"></include>
   </div>
-  <header class="header">
-    <a class="header__logo">
+  <header class="header header--contact">
+    <a href="index.html" class="header__logo">
       <img src="img/image-logo-header.svg" alt="Логотип">
     </a>
     <nav class="header-nav"></nav>
     <div class="header__burger">
-      <button class="header__burger-button" type="button"></button>
+      <button class="header__burger-button"></button>
     </div>
   </header>
   <main class="main">
-    <div class="container">
-      <div class="main__present">
-        <h1 class="main__present-title">New Automation Tool for Your Home</h1>
-        <p class="main__present-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus tristique vulputate ultrices ut mauris tellus at. Posuere sollicitudin odio tellus elit.</p>
-        <a href="#" class="main__present-button link-button">See Our Project</a>
+    <section class="contact">
+      <div class="contact__banner">
+        <h1 class="contact__banner-title">Contact Us</h1>
+        <p class="contact__banner-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
-      <div class="main__advantages">
-        <h2 class="main__advantages-title">What we do to help our client grow in digital era,</h2>
-        <div class="main__advantages-item">
-          <div class="main__advantages-item-image main__advantages-item-image--make">
-            <img src="img/image-make.png" alt="Make">
+      <div class="container">
+        <div class="contact__main">
+          <div class="contact__info">
+            <div class="contact__info-block">
+              <div class="contact__info-image">
+                <img src="img/image-contact-info.svg" alt="Контакты">
+              </div>
+              <h2 class="contact__title">Address</h2>
+              <p class="contact__info-text">Id convallis placerat sit sed duis id amet volutpat quam a, pharetra.</p>
+            </div>
+            <div class="contact__info-block contact__info-block--phone">
+              <h2 class="contact__title">Phone</h2>
+              <ul class="contact__info-list">
+                <li class="contact__info-item">
+                  <a href="tel:62-812-7313-4321" class="contact__info-item-link">+62-812-7313-4321</a>
+                </li>
+                <li class="contact__info-item">
+                  <a href="tel:62-817-000-1234" class="contact__info-item-link">+62-817-000-1234</a>
+                </li>
+              </ul>
+            </div>
+            <div class="contact__info-block contact__info-block--servise">
+              <h2 class="contact__title">Online service</h2>
+              <ul class="contact__info-list">
+                <li class="contact__info-item contact__info-item--www">
+                  <a href="www.afrianska.com" class="contact__info-item-link">www.afrianska.com</a>
+                </li>
+                <li class="contact__info-item contact__info-item--mail">
+                  <a href="mailto:hello.afrian@gmail.com" class="contact__info-item-link">hello.afrian@gmail.com</a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <h3 class="main__advantages-item-title">Make Your business To Be Better Famous In Internet</h3>
-          <p class="main__advantages-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <a href="#" class="main__advantages-item-link">Learn more</a>
+          <div class="contact__form">
+            <form action="#" method="post">
+              <h2 class="contact__title">Send Us Message</h2>
+              <label for="full-name">
+                <span>Full Name</span>
+                <input id="full-name" type="text" name="full-name" placeholder="Your Name">
+              </label>
+              <label for="mail">
+                <span>Email</span>
+                <input id="mail" type="text" name="mail" placeholder="Your Email">
+              </label>
+              <label for="message">
+                <span>Message</span>
+                <textarea id="message" name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+              </label>
+              <button class="contact__button link-button" type="submit">Submit</button>
+            </form>
+          </div>
         </div>
-        <div class="main__advantages-item">
-          <div class="main__advantages-item-image main__advantages-item-image--bring">
-            <img src="img/image-bring.png" alt="Bring">
-          </div>
-          <h3 class="main__advantages-item-title">Bring Technology To Your Comfrotable Home</h3>
-          <p class="main__advantages-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <a href="#" class="main__advantages-item-link">Learn more</a>
-        </div>
-        <div class="main__advantages-item">
-          <div class="main__advantages-item-image main__advantages-item-image--build">
-            <img src="img/image-build.png" alt="Build">
-          </div>
-          <h3 class="main__advantages-item-title">Build Your Digital Product That Suitable For Your Need</h3>
-          <p class="main__advantages-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <a href="#" class="main__advantages-item-link">Learn more</a>
+        <div class="contact__map">
+          <img src="img/image-map.jpg" alt="Карта">
         </div>
       </div>
-    </div>
+    </section>
   </main>
   <footer class="footer">
-    <div class="footer__container footer__container--blue">
-      <div class="clients">
-        <div class="container">
-          <div class="clients__content">
-            <h3 class="clients__content-title">Our Beloved Client</h3>
-            <p class="clients__content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-          </div>
-          <ul class="clients__list">
-            <li class="clients__item">Logo client 1</li>
-            <li class="clients__item">Logo client 2</li>
-            <li class="clients__item">Logo client 3</li>
-            <li class="clients__item">Logo client 4</li>
-            <li class="clients__item">Logo client 5</li>
-            <li class="clients__item">Logo client 6</li>
-            <li class="clients__item">Logo client 7</li>
-            <li class="clients__item clients__item--more">More Client</li>
-          </ul>
-        </div>
-      </div>
+    <div class="footer__container">
       <div class="footer__main">
         <div class="container">
           <div class="footer__info">
@@ -86,7 +96,7 @@
               <p class="footer__info-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </div>
             <div class="footer__info-link-block">
-              <a href="contact.html" class="footer__info-link link-button">Let’s Talk</a>
+              <a href="#" class="footer__info-link link-button">Let’s Talk</a>
             </div>
           </div>
           <div class="footer__contact">
